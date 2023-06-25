@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Currency Exchange</title>
+</head>
+<body class="body">
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-container container">
+            <div class = "logo-wrapper-header">
+                <img src="./img/logo.svg" alt="logo" class = "logo mobile">
+                <img src="./img/logo_desktop.svg" alt="logo" class="logo-desktop desktop">
+            </div>
+            <nav class="nav desktop">
+                <a href="#" class="nav-text">Home</a>
+                <a href="#" class="nav-text">Tariffs</a>
+                <a href="#" class="nav-text">Rules</a>
+                <a href="#" class="nav-text" >FAQ</a>
+                <a href="#" class="nav-text">For partners</a>
+                <a href="#" class="nav-text">Contacts</a>
+            </nav>
+            <div class="authentication_header">
+                <button class="signup-btn">Sign Up</button>
+                <button class="login-btn desktop">Log in</button>
+            </div>
+            <div class="hamburger-menu mobile">
+                <img src="./img/menu_btn.svg" alt="menu" class="menu-btn-img">
+            </div>
+        </div>
+    </header>
+    <!-- MAIN -->
+    <main> 
+        <div class="calc-container container">
+            <div class="calc-block">
+                <h1 class="title">Currency Exchange<br>fast & safe</h1>
+                <p class="description">No extra fee. Account replenishment no longer than 15 minutes</p>
+                <div class="calc">
+                    <div class="calc-block">
+                        <p class="calc-text">You give</p>
+                        <input type="text" placeholder="Amount" class="calc-input">
+                        <select class="calc-select">
+                            <option>Choose the currency</option>
+                            <option value="rub">RUB</option>
+                            <option value="usd">USD</option>
+                            <option value="bch">BCH</option>
+                        </select>
+                    </div>
+                    <button class="swap swap_calc"></button>   
+                    <div class="calc-block">
+                        <p class="calc-text">You receive</p>
+                        <input type="text" placeholder="999 999 999" class="calc-input">
+                        <select class="calc-select">
+                                <option value="rub">RUB</option>
+                                <option value="usd">USD</option>
+                                <option value="bch">BCH</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="change-info">
+                    <div class="change-info-block">
+                        <p class="calc-text">Commission - 1%</p> 
+                        <div class="change-info-string">
+                            <p class="commision-amount change-info-digit">21.27498619</p>
+                            <p class="current-name">&nbspBCH</p>
+                        </div>
+                    </div>
+                    <div class="change-info-block">
+                        <p class="calc-text">Rate</p> 
+                        <div class="change-info-string">
+                            <p class="rate-selling change-info-digit">3 011 406.09</p>
+                            <p class="current-name">&nbspRUB</p>
+                            <p class="change-info-digit">&nbsp=&nbsp</p>
+                            <p class="rate-buying change-info-digit">1</p>
+                            <p class="current-name">&nbspBTC</p>                 
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-exchange-wrapper">
+                        <button class="btn-exchange">Exchange</button>
+                </div>
+                <div class="apply-wrapper">
+                        <input type="checkbox" class="checkbox-agreement">
+                        <p class="calc-text text-agreement">I agree with &nbsp</p>
+                        <a href="#" class="clac-text rules-and-statements">Rules and statements</a>
+                </div>
+            </div>
+            <div class="illustration desktop">
+                    <img src="./img/illustration.svg" alt="illustration">
+            </div>
+        </div>
+        <div class="latest-app-wrapper">
+            <div class="container latest-app-container">
+                <h2 class="title-latest-app">Latest applications</h2>
+                <div class="latest-app-block desktop">
+                    <div class="latest-app-unit">
+                        <p class="date-latest-app">14.07.2020, 22,36</p>
+                        <div class="latest-app-change">
+                            <div class="text-block-latest-app">
+                                <p class="digit-latest-app">104 000</p>
+                                <p class="currency-latest-app">&nbspRUB</p>
+                            </div>
+                            <button class="swap swap-latest-app"></button>   
+                            <div class="text-block-latest-app">
+                            <p class="digit-latest-app">0.056 600 935</p>
+                            <p class="currency-latest-app">&nbspLTC</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-app-unit">
+                        <p class="date-latest-app">14.07.2020, 22,36</p>
+                        <div class="latest-app-change">
+                            <div class="text-block-latest-app">
+                                <p class="digit-latest-app">104 000</p>
+                                <p class="currency-latest-app">&nbspRUB</p>
+                            </div>
+                            <button class="swap swap-latest-app"></button>   
+                            <div class="text-block-latest-app">
+                            <p class="digit-latest-app">0.056 600 935</p>
+                            <p class="currency-latest-app">&nbspLTC</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-app-unit">
+                        <p class="date-latest-app">14.07.2020, 22,36</p>
+                        <div class="latest-app-change">
+                            <div class="text-block-latest-app">
+                                <p class="digit-latest-app">104 000</p>
+                                <p class="currency-latest-app">&nbspRUB</p>
+                            </div>
+                            <button class="swap swap-latest-app"></button>   
+                            <div class="text-block-latest-app">
+                            <p class="digit-latest-app">0.056 600 935</p>
+                            <p class="currency-latest-app">&nbspLTC</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-app-unit desktop">
+                        <p class="date-latest-app">14.07.2020, 22,36</p>
+                        <div class="latest-app-change">
+                            <div class="text-block-latest-app">
+                                <p class="digit-latest-app">104 000</p>
+                                <p class="currency-latest-app">&nbspRUB</p>
+                            </div>
+                            <button class="swap swap-latest-app"></button>   
+                            <div class="text-block-latest-app">
+                            <p class="digit-latest-app">0.056 600 935</p>
+                            <p class="currency-latest-app">&nbspLTC</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="latest-app-slider mobile">
+                    <div class="latest-app-unit">
+                        <p//vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/code/electron-sandbox/workbench/workbench.htmlp class="date-latest-app">14.07.2020, 22,36</p>
+                        <div class="latest-app-change">
+                            <div class="text-block-latest-app">
+                                <p class="digit-latest-app">104 000</p>
+                                <p class="currency-latest-app">&nbspRUB</p>
+                            </div>
+                            <button class="swap swap-latest-app"></button>   
+                            <div class="text-block-latest-app">
+                            <p class="digit-latest-app">0.056 600 935</p>
+                            <p class="currency-latest-app">&nbspLTC</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="switcher-latest-app mobile">
+                        <img src="./img/paginator_unactive.svg" class="paginator">
+                        <img src="./img/paginator_unactive.svg" class="paginator">
+                        <img src="./img/paginator_unactive.svg" class="paginator">
+                        <img src="./img/paginator_unactive.svg" class="paginator">
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="logo-copyright">
+                <div class="logo-wrapper">
+                        <img src="./img/logo_desktop.svg" alt="logo" class="logo-footer">
+                </div>
+                <div class="copyright">
+                    <div class="copyright-sub">
+                        <img src="./img/copyright.svg" class="copyright-sight">
+                        <p class="copyright-text text_footer">2021, cryptosale.net</p>
+                    </div>
+                    <p class="copyright-text text_footer">All rights reserved<p>
+                </div>
+            </div>
+            <div class="authentication_footer">
+                <button class="signup-btn">Sign Up</button>
+                <button class="login-btn">Login in</button>
+            </div>
+            <div class="footer-info">
+                <h1 class="text-title-footer">Popular directions of exchange</h1>
+                <ul class="text_footer list-footer">
+                    <li>Exchange Bitcoin to Qiwi</li>
+                    <li>Exchange Sber to Bitcoin</li>
+                    <li>Exchange Ether to Sber</li>
+                    <li>Exchange Ether to Tinkoff</li>
+                </ul>
+            </div>
+            <nav class="nav-footer">
+                <div class="nav-block-footer">
+                    <a class="text-title-footer nav-elem-footer">Tariffs</a>
+                    <a class="text-title-footer nav-elem-footer">Reviews</a>
+                    <a class="text-title-footer nav-elem-footer">Rules</a>
+                    <a class="text-title-footer nav-elem-footer">FAQ</a>
+                </div>
+                <div class="nav-block-footer">
+                    <a class="text-title-footer nav-elem-footer">For partners</a>
+                    <a class="text-title-footer nav-elem-footer">Policy</a>
+                    <a class="text-title-footer nav-elem-footer">Contacts</a>
+                </div>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
